@@ -119,7 +119,7 @@ task-manager/
 ### Clone the Repository
 
 ```bash
-git clone <https://github.com/29ayushkala/task-manager-fullstack.git>
+git clone https://github.com/29ayushkala/task-manager-fullstack.git
 cd task-manager
 ```
 
@@ -133,9 +133,7 @@ npm run dev
 
 Backend will run on:
 
-```text
-http://localhost:5000
-```
+https://task-manager-backend-vudn.onrender.com/
 
 ### Frontend Setup
 
@@ -149,11 +147,8 @@ npm run dev
 
 Frontend will run on:
 
-```text
-http://localhost:5173
-```
+https://task-manager-fullstack-self.vercel.app/
 
----
 
 ## API Documentation
 
