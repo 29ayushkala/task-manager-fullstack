@@ -1,19 +1,37 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/tasks",
+  baseURL:
+    "https://task-manager-backend-vudn.onrender.com/api/tasks",
 });
 
-export const getTasks = () => API.get("/");
+export const getTasks = () =>
+  API.get("/");
 
-export const createTask = (task) =>
+export const createTask = (
+  task
+) =>
   API.post("/", task);
 
-export const updateTask = (id, task) =>
-  API.put(`/${id}`, task);
+export const updateTask = (
+  id,
+  task
+) =>
+  API.put(
+    `/${id}`,
+    task
+  );
 
-export const deleteTask = (id) =>
-  API.delete(`/${id}`);
+export const deleteTask = (
+  id
+) =>
+  API.delete(
+    `/${id}`
+  );
 
-export const toggleTask = (id) =>
-  API.patch(`/${id}/toggle`);
+export const toggleTask = (
+  id
+) =>
+  API.patch(
+    `/${id}/toggle`
+  );
