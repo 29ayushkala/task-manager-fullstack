@@ -119,7 +119,7 @@ task-manager/
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/29ayushkala/task-manager-fullstack.git>
 cd task-manager
 ```
 
